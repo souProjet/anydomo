@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A N Y D O M O - panel</title>
+    <link rel="stylesheet" href="./asset/css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="./asset/image/logo.png">
+
+    <script>
+        let jsonModule = <%=jsonmodule%>;
+    </script>
+</head>
+
+<body>
+    <img class="loader" src="./asset/image/loader.gif" alt="Loading">
+
+    <div class="list">
+        <div class="module module1">
+            <ion-icon onclick="addmodule(this)" title="Ajouter" class="add" name="add"></ion-icon>
+
+            <h2>Interrupteur</h2>
+            <div class="switch">
+                <input id="switch" type="checkbox">
+                <label for="switch"></label>
+            </div>
+        </div>
+        <div class="module module2">
+            <ion-icon onclick="addmodule(this)" title="Ajouter" class="add" name="add"></ion-icon>
+
+            <h2>Bouton</h2>
+            <div class="btn btn__secondary">
+                <p>Bouton</p>
+            </div>
+        </div>
+        <div class="module module3">
+            <ion-icon onclick="addmodule(this)" title="Ajouter" class="add" name="add"></ion-icon>
+
+            <h2>Slider</h2>
+
+            <div class="slider">
+                <input type="range">
+                <!-- <div class="slider__box">
+                    <span class="slider__btn" id="find"></span>
+                    <span class="slider__color"></span>
+                    <span class="slider__tooltip">50%</span>
+                </div> -->
+            </div>
+        </div>
+        <div class="module module4">
+            <ion-icon onclick="addmodule(this)" title="Ajouter" class="add" name="add"></ion-icon>
+
+            <h2>ON / OFF</h2>
+
+            <div class="circle">
+                <span class="circle__btn" onclick="circlebtn(this)">
+                    <ion-icon class="pause" name="pause"></ion-icon>
+                    <ion-icon class="play" name="play"></ion-icon>
+                </span>
+                <span class="circle__back-1"></span>
+                <span class="circle__back-2"></span>
+            </div>
+        </div>
+        <div class="module module5">
+            <ion-icon onclick="addmodule(this)" title="Ajouter" class="add" name="add"></ion-icon>
+
+            <h2>Case à cocher</h2>
+
+            <div class="checkbox">
+                <div class="checkbox_container">
+                    <input id="checkbox" type="checkbox">
+                    <label for="checkbox">
+                        <i class="material-icons">done</i></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <ion-icon title="Démarrer" class="start" name="play"></ion-icon>
+
+        <div class="case case1"></div>
+        <div class="case case2"></div>
+        <div class="case case3"></div>
+        <div class="case case4"></div>
+        <div class="case case5"></div>
+        <div class="case case6"></div>
+        <div class="case case7"></div>
+        <div class="case case8"></div>
+        <div class="case case9"></div>
+    </div>
+    <div class="configuration">
+        <div class="panel panel1">
+            <h2>Configuration</h2>
+        </div>
+        <div class="panel panel2"></div>
+        <div class="panel panel3"></div>
+        <div class="panel panel4"></div>
+    </div>
+    <script src="./asset/js/home.js"></script>
+</body>
+
+</html>

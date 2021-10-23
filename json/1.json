@@ -1,0 +1,1 @@
+{"0":{"id":"QDEKMWGBHQ","name":"bandeau LED","type":"switch","activator":{"type":"Port série","numType":1,"active":"on","unactive":"off"},"action":{"type":"Port série","numType":1,"active":"on","unactive":"off","operator":"","number":"","data":""},"serialport":{"baud":"9600","port":"/dev/ttyUSB0"}},"1":{},"2":{},"3":{},"4":{},"5":{},"6":{},"7":{},"8":{},"9":1}
