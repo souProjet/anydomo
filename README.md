@@ -9,5 +9,5 @@ Anydomo est une interface modulaire de gestion pour vos appareils domotiques
 
  |nom                          |compatibilité                  |
 -------------------------------|-----------------------------|
-| HTTP           |à venir         |
- |Port série          |supporté          |
+| HTTP           | supporté         |
+ |Port série          |à venir          |
