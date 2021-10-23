@@ -1,5 +1,5 @@
 
-Anydomo est une interface modulaire de gestion pour vos appareils domotique
+Anydomo est une interface modulaire de gestion pour vos appareils domotiques
 
 ## Lancer
 
